@@ -9,7 +9,7 @@ import { useRef } from 'react';
 import toast from 'react-hot-toast';
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-const API_BASE_URL_Private = import.meta.env.VITE_Private;
+const API_BASE_URL_PRIVATE = import.meta.env.VITE_PRIVATE;
 const PRIVATE_MESSAGE = import.meta.env.VITE_PRIVATE_MESSAGE;
 
 const API_OPTIONS = {
@@ -198,7 +198,7 @@ const App = () => {
             {trendingMovies.map((movie, index) => {
     const href =
       overrideMode || heldKey === 'l'
-        ? `${API_BASE_URL_Private}/${movie.media_type}/${movie.tmdb_id}`
+        ? `${API_BASE_URL_PRIVATE}/${movie.media_type}/${movie.tmdb_id}`
         : movie.imdb_id
         ? `https://www.imdb.com/title/${movie.imdb_id}`
         : '#';
