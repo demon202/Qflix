@@ -27,7 +27,7 @@
 
 ---
 
-🙌 Credits
-TMDb — for the movie/TV data API
+## 🙌 Credits 
+- **TMDb** — for the movie/TV data API
 
-Appwrite — backend services and database
+- **Appwrite** — backend services and database
