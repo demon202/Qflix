@@ -1,12 +1,33 @@
-# React + Vite
+# 🎬 Qflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Qflix** is a sleek and dynamic movie and TV show search app built with React and powered by The Movie Database (TMDb) API. It allows users to search for trending content, explore top-rated titles, and view metadata-rich cards linking to streaming and IMDb sources.
 
-Currently, two official plugins are available:
+### 🌐 Live Demo
+👉 [Visit Qflix](https://demon202.github.io/cv/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Live Search**: Instantly search for movies and TV shows
+- 📈 **Trending Section**: Displays most searched items across all users
+- 🎞️ **Detailed Movie Cards**: Displays poster, rating, release year, and language
+- 🎯 **Interactive Links**: Click to view IMDb or stream on Vidbox
+- 🧠 **Search Intelligence**: Backed by Appwrite to track what users search most
+- 📊 **Custom Trending Algorithm**: Combines multiple queries pointing to the same content
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, JavaScript (ES6+)
+- **API**: TMDb API for movie/TV data
+- **Backend**: Appwrite (Database, Serverless Functions)
+- **Hosting**: GitHub Pages (or any modern static hosting)
+
+---
+
+🙌 Credits
+TMDb — for the movie/TV data API
+
+Appwrite — backend services and database
