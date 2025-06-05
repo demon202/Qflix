@@ -1,7 +1,7 @@
 {
   "name": "Qflix",
   "short_name": "Qflix",
-  "start_url": "/",
+  "start_url": "/Qflix/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
