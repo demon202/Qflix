@@ -3,7 +3,7 @@
 **Qflix** is a sleek and dynamic movie and TV show search app built with React and powered by The Movie Database (TMDb) API. It allows users to search for trending content, explore top-rated titles, and view metadata-rich cards linking to streaming and IMDb sources.
 
 ### 🌐 Live Demo
-👉 [Visit Qflix](https://demon202.github.io/cv/)  
+👉 [Visit Qflix](https://demon202.github.io/Qflix)  
 
 ---
 
@@ -31,3 +31,14 @@
 - **TMDb** — for the movie/TV data API
 
 - **Appwrite** — backend services and database
+
+
+
+## Devlog
+
+### v1.1.0
+- **PWA** – Converted the web app to a Progressive Web App (PWA) using Vite.
+- **Retailers** – Integrated region-specific provider listings using browser language.
+
+### v1.0.0
+- Initial release with core search, display, and rating features.
