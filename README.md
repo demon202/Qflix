@@ -34,7 +34,7 @@
 
 
 
-## Devlog
+## 🔥Devlog
 
 ### v1.1.0
 - **PWA** – Converted the web app to a Progressive Web App (PWA) using Vite.
