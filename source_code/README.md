@@ -12,7 +12,7 @@
 - 🔍 **Live Search**: Instantly search for movies and TV shows
 - 📈 **Trending Section**: Displays most searched items across all users
 - 🎞️ **Detailed Movie Cards**: Displays poster, rating, release year, and language
-- 🎯 **Interactive Links**: Click to view IMDb
+- 🎯 **Interactive Links**: Click to view IMDb or stream on Vidbox
 - 🧠 **Search Intelligence**: Backed by Appwrite to track what users search most
 - 📊 **Custom Trending Algorithm**: Combines multiple queries pointing to the same content
 
@@ -32,13 +32,9 @@
 
 - **Appwrite** — backend services and database
 
----
 
-## 🔥Devlog
 
-### v1.2.0
-- **Thumbnail** – Added movie thumbnail preview on hover. Autoplay trailer not implemented due to YouTube sign-in requirements in some regions (Update as of June 2025).
-
+## Devlog
 
 ### v1.1.0
 - **PWA** – Converted the web app to a Progressive Web App (PWA) using Vite.
