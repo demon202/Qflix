@@ -36,6 +36,9 @@
 
 ## 🔥Devlog
 
+### v1.2.1
+- **Release Date** – Displays accurate release dates (in dd-mm-yyyy format) on posters for upcoming movies.
+
 ### v1.2.0
 - **Thumbnail** – Added movie thumbnail preview on hover. Autoplay trailer not implemented due to YouTube sign-in requirements in some regions (Update as of June 2025).
 

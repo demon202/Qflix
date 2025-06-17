@@ -4,12 +4,23 @@ export const getAvailabilityStatus = (releaseDate, hasProviders) => {
   const today = new Date();
   const release = new Date(releaseDate);
 
+  //get displayable date of release
+  const formatReleaseDate = (release) => {
+    if (!release) return null;
+    const date = new Date(release);
+    return date.toLocaleDateString('en-GB', {
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric',
+    });
+};
+
   // Normalize both to midnight
   today.setHours(0, 0, 0, 0);
   release.setHours(0, 0, 0, 0);
 
   if (release.getTime() > today.getTime()) {
-    return "Not released yet";
+    return `${formatReleaseDate(releaseDate)}`;
   }
 
   if (!hasProviders) {
