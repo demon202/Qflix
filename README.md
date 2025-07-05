@@ -36,6 +36,36 @@
 
 ## 🔥Devlog
 
+## 📦 Version 1.3.0 – Seamless YouTube Trailer Previews
+
+This release brings smart, performant trailer previews using the YouTube Iframe API — optimized for both desktop and mobile users.
+
+### ✨ Features
+
+- **Autoplay YouTube Trailers**
+  - Automatically plays trailers on hover (desktop).
+  - On mobile, trailers autoplay after 3 seconds in view (using `IntersectionObserver`).
+  
+- **Mute/Unmute Toggle**
+  - Seamlessly toggles mute without interrupting video playback (no buffering or reload).
+  - Built with the official [YouTube Iframe API](https://developers.google.com/youtube/iframe_api_reference).
+
+- **Thumbnail Fallback**
+  - Displays a static trailer thumbnail (`mqdefault.jpg`) if autoplay fails or trailer is unavailable.
+
+- **Mobile-First Optimizations**
+  - Prevents autoplay on scroll — plays only when the trailer card is fully in view.
+  - Reduces unnecessary bandwidth usage and improves UX.
+
+-  **Smart Defaults**
+  - Resets to muted state on hover-out.
+  - Clicking the mute button does **not** trigger navigation (e.g., `a` tags).
+
+---
+
+> Intention: Trailers fall back in restricted regions where autoplay is blocked, so UX remains smooth.
+
+
 ### v1.2.1
 - **Release Date** – Displays accurate release dates (in dd-mm-yyyy format) on posters for upcoming movies.
 
