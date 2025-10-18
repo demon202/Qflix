@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="manifest" href="./public/site.webmanifest" />
+    <link rel="manifest" href="/Qflix/assets/site-DOJ2xYzp.webmanifest" />
     <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png" />
-    <link rel="icon" type="image/x-icon" href="/favicon-48x48.ico" />               
+    <link rel="icon" type="image/x-icon" href="/Qflix/favicon-48x48.ico" />               
     <link href="https://fonts.cdnfonts.com/css/cloister-black" rel="stylesheet">             
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QFlix: Find Shows you will enjoy with no hassle!</title>
-  </head>
-  <!-- Google tag (gtag.js) -->
+      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNC5NNDB6D"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,10 +16,17 @@
   gtag('js', new Date());
 
   gtag('config', 'G-SNC5NNDB6D');
+  gtag("event", "search_query", {
+  search_term: searchTerm,
+  timestamp: Date.now(),
+});
 </script>
+    <script type="module" crossorigin src="/Qflix/assets/index-DOKTdfb0.js"></script>
+    <link rel="stylesheet" crossorigin href="/Qflix/assets/index-Buh_5Jw5.css">
+  <link rel="manifest" href="/Qflix/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/Qflix/registerSW.js"></script></head>
+
   <body>
     <div id="root"></div>
     
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
